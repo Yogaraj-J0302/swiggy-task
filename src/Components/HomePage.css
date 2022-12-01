@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.body-container {
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  justify-content: space-between;
+  background-color: #171a29;
+  flex-direction: row;
+  margin: 10px;
+}
+.bBtn,
+.fBtn {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin: 0;
+  color: #cc6317;
+}
+.images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 90%;
+}
+.listImages {
+  height: 320px;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imagOne {
+  transition: 0.3s;
+  object-fit: cover;
+  position: relative;
+}
+.imagOne:hover {
+  cursor: pointer;
+  height: 320px;
+}
